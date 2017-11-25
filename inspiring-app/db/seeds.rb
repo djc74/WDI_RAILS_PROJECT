@@ -1,0 +1,11 @@
+c1 = Category.create!(name: "positive")
+c2 = Category.create!(name: "deep")
+c3 = Category.create!(name: "love")
+c4 = Category.create!(name: "uplifting")
+c5 = Category.create!(name: "change")
+
+q1 = c1.quotes.create!(body: "http://www.keepinspiring.me/wp-content/uploads/2015/11/3.jpg")
+q2 = c2.quotes.create!(body: "http://quotesnhumor.com/wp-content/uploads/2016/01/Top-30-Deep-Inspirational-Quotes-inspiring-quotes.jpg")
+q3 = c3.quotes.create!(body: "https://i.pinimg.com/736x/8d/23/31/8d2331abee70bd7569a6036fe180411a--deaf-quotes-advice-quotes.jpg")
+q4 = c4.quotes.create!(body: "https://i.pinimg.com/736x/c1/30/4d/c1304db2372b2762d17972933e7f576d--inspirational-quote-about-life-uplifting-quotes-positive.jpg")
+q5 = c5.quotes.create!(body: "http://julieflygare.com/wp-content/uploads/2014/02/inspirational-quotes-change-the-secret-to-change-is-to-focus-all-of-your-energy-no-on-fighting-the-old-but-on-building-the-new-socrates.jpg")
